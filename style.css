@@ -1,0 +1,617 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Tekton Pro';
+}
+
+ div.nav_section{
+    z-index: 100;
+     width: 100%;
+    display: flex;
+    padding: 10px;
+    position: fixed;
+    top: 0%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+    margin-bottom: 10%;
+    background-color: white;
+    
+} 
+img.logo_page{
+    width: 120px;
+    margin-left: 2%;
+
+}
+nav{
+    position: absolute;
+    right: 5%;
+    padding: 5px;
+   
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #1E8EE4;
+}
+i.fa-bars{
+    visibility: hidden;
+    font-size: 24px;
+    color: #1E8EE4;
+    cursor: pointer;
+}
+
+header {
+ width: 100%;
+ margin-top: 50px;
+}
+header img{
+    width: 100%;
+    padding: 20px;
+    
+}
+div.row-blue {
+    position: relative;
+}
+div.features_section{
+    width: 100%;
+}
+div.half_border img{
+    width: 20%;
+    height: 5%;
+}
+span.text{
+    position: absolute;
+    left: 20px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+div.row-container{
+    width: 100%;
+    
+}
+div.halfEllipse{
+    width: fit-content;
+    padding: 7px;
+    background-image: url('./image/Path_13.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+div.halfEllipse h2{
+    color: white;
+    font-weight: 700;
+}
+div.row-card-container{
+   padding: 0 18%;
+   margin: 3%  0;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-row-gap: 50px;
+}
+div.cards{
+    height: 180px;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./image/Group_25.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0px;
+    
+    /* height:100%; */
+    
+}
+div.card_container{
+   font-size: 20px;
+   text-align: justify;
+   color: white;
+
+}
+div.row-rectangle-container{
+    display: flex;
+    padding: 0 15%;
+    margin: 3% 0;
+    height:100%;
+   
+}
+div.rectangle-card-container{
+    background-image: url('./image/Rectangle_16.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+.rectangle_card{
+ font-size: 28px;
+ color: white;
+ padding: 20px;
+}
+div.rectangle_card h3{
+    font-size: 30px;
+}
+i{
+    padding: 5px;
+    letter-spacing: 2px;
+}
+
+
+
+div.row-testimonials-container{
+    
+    display: flex;
+    padding: 0 20px;
+    height:fit-content;
+    padding:0 18%;
+  
+    }
+    div.testimonials_card{
+        position: relative;
+    background-image: url('./image/Rectangle_16.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 20px;
+    z-index: -1;
+    
+    }
+    div.text_testimonial{
+    padding: 10px;
+    line-height: 32px;
+    }
+    
+
+    div.testimonials_content{
+    display: flex;
+    width: 100%;
+    }
+    img.testifier{
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+    }
+   
+    p.testimonial{
+    margin-top: 5%;
+    color: white;
+    font-size: 23px;
+    }
+    h3.name_testifier{
+    color: white;
+    font-size: 28px;
+    }
+    div.testimonials_content span{
+    color: lightgray;
+    font-size: 24px;
+    }
+    .quote_image img{
+    padding-right: 10px;
+    } 
+    div.arrow_testimonials {
+    display: flex;
+    height: 50px;
+    position: absolute;
+right: 24px;
+ 
+    }
+    div.arrow_testimonials img{
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+
+    }
+    .quote_image{
+        width: 50px;
+       margin-left: 180px;
+       /* margin-top: 120px; */
+    }
+    
+    div.row-form-container{
+        display: flex;
+        padding: 0 35%;
+        margin: 3% auto;
+        }
+    div.form-card-container{
+        position: relative;
+        background-image: url('./image/Rectangle_16.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30px;
+        border-radius: 20px;
+        z-index: -1;
+        /* width: 100%; */
+      
+    }
+
+  
+    .form-group{
+        /* display: flex; */
+        flex-wrap: wrap;
+    }
+    form{
+        padding: 20px;
+    }
+    label{
+        /* display: block; */
+        text-align: left;
+        font-size: 23px;
+        color: white;
+        flex: 1;
+       
+    }
+    input,textarea{
+        display: block;
+      margin-bottom: 12px;
+        /* width: 250px; */
+        width: 100%;
+        
+    }
+    textarea{
+        border-radius: 10px;
+      flex: 1;
+
+      
+    }
+    footer{
+        color: white;
+        width: 100%;
+      
+    }
+    div.footer-container{
+      
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2% 5% 2% 8%;
+         background-color: #4175DF;
+        color: white;
+    }
+    section.column-page_links{
+        flex: 1;
+        font-size: 23px;
+    }
+    section.column-contacts{
+        flex: 1;
+        font-size: 23px;
+    }
+
+    section.column-social_media{
+            flex: 1;
+            font-size: 23px;
+            text-align: center;
+    }
+    section.copyright{
+        background-color: #1756E3;
+        font-size: 23px;
+        text-align: center;
+        padding: 15px;
+        /* box-shadow: rgba(23, 86, 227, 0.8) 12px 4px 0px; */
+    }
+    footer li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        
+    }
+    footer li{
+        list-style: none;
+    }
+    footer h3{
+        word-spacing: 5px;
+    }
+    section.column-social_media i{
+        color: white;
+        letter-spacing: 5px;
+        padding: 6px;
+      
+    }
+
+
+
+
+    /* For login page*/
+    div.login_container{
+        width: 100%;
+        padding: 15% 28%;
+        /* background-color: #1EEE4; */
+       
+       
+    }
+    div.left_login_card {
+        flex: 1;
+        padding: 20px;
+    }
+    div.left_login_card img{
+        opacity: 50%;
+        border-radius: 50px;
+        width: 100%;
+        max-width: 300px;
+    }
+    div.right_login_card{
+        flex: 1;
+        padding: 10px;
+    
+        
+        
+    }
+div.login_card{
+    display: flex;
+   max-width: 852px;
+    margin-top: 28px;
+    background-color: #1E8EE4;
+    border-radius: 12px;
+    /* align-items: center; */
+ 
+  
+
+    
+}
+
+form.login_form{
+    width: 100%;
+  
+}
+form.login_form input{
+    width: 94%;
+    height: 20px;
+    padding: 8px;
+    
+}
+div.form-password{
+    position: relative;
+}
+
+div.eye_toggle{
+    position: absolute;
+    color:#1756E3;
+    font-size: 20px;
+    top: 30px;
+    right: 25px;
+}
+i.fa-eye-slash{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    visibility: hidden;
+}
+
+p.pw_reset a{
+    color: white;
+}
+button.login_form_submit{
+    background-color: #1E8EE4;
+    width: 80px;
+    border: #1756E3 solid 3px;
+    height: 30px;
+    color: white;
+    padding: 6px;
+    margin-top: 8px
+}
+
+/*register page*/
+
+div.register_container{
+    width: 100%;
+    padding: 10% 18%;
+    margin-bottom: 50px;
+
+   
+   
+}
+
+div.right_register_card{
+
+         margin-left: 30px;
+
+    
+}
+div.register_card{
+   
+/* margin-top: 20px; */
+background-color: #1E8EE4;
+border-radius: 12px;
+
+
+
+}
+
+form.register_form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 0px;
+ 
+
+
+}
+div.left{
+    flex: 40%;
+
+    
+  
+}
+div.right{
+    flex: 40%;
+    width: 100%;
+}
+form.register_form input{
+    display: block;
+padding: 8px;
+width: 80%;
+height: 20px;
+
+
+}
+div.form-register-password{
+position: relative;
+}
+
+div.form-register-password div.eye_toggle{
+    position: absolute;
+    color:#1756E3;
+    font-size: 20px;
+    top: 48%;
+    right: 22%;
+}
+
+
+
+
+p.acc_already a{
+    color: white;
+}
+button.register_form_submit{
+    background-color: #1E8EE4;
+    width: 85px;
+    border: #1756E3 solid 3px;
+    height: 35px;
+    color: white;
+    padding: 8px;
+    margin-top: 8px;
+    font-size: large;
+}
+
+
+@media only screen and (max-width: 600px){
+    div.row-rectangle-container{
+        display: flex;
+        padding: 0 5%;
+        margin: 3% 0;
+        height:100%;
+       
+    }
+    div.row-testimonials-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px ;
+        margin: 3% 0;
+        height:100%;
+        
+       
+    }
+
+i.fa-bars{
+    visibility: visible;
+}
+    div.img_testimonal{
+        display: flex;
+        justify-content: center;
+
+    }
+    .quote_image img{
+        display: none;
+    }
+    
+    div.text_testimonial{
+        text-align: center;
+        padding: 12px;
+        margin-top: 20px;
+        line-height: 30px;
+        /* margin-left: 30px; */
+        
+        }
+      
+    
+        div.testimonials_content{
+        display: block;
+        /* width: 100%; */
+        padding: 20px;
+        }
+        div.arrow_testimonials {
+            display: none;
+      }
+      div.testimonials_card{
+        
+            padding: 5px;
+              border-radius: 20px;
+    
+    }
+    p.testimonial{
+    
+        font-size: 20px;
+        }
+    nav ul li a{
+      display: none;
+    }
+    
+        
+      div.row-form-container{
+      
+        padding: 0 5%;
+        margin: 3% 0;
+        }
+        form{
+            padding: 10px;
+        }
+     
+        div.footer-container{
+            display: block;
+             text-align: center;
+           
+            }
+        section.column-page_links{
+                 font-size: 24px;
+                 padding: 10px;
+             }
+        section.column-contacts{
+            font-size: 24px;
+            padding: 10px;
+            
+        }
+        section.column-social_media{
+                font-size: 24px;
+                text-align: center;
+                margin-top: 5%;
+            
+        }
+        section.copyright{
+            font-size: 22px;
+         }
+        footer li a{
+            font-size: 20px;
+            text-decoration: underline;
+        }
+        span.address{
+            font-size: 20px;
+        }
+
+div.register_container{
+
+    padding: 18% 5%;
+
+   
+   
+}
+ 
+      
+    
+}
+
+@media only screen and (max-width:1130px){
+     
+    div.login_card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+
+    }
+    div.left{
+        flex: 100%;
+        
+      
+    }
+    div.right{
+        flex: 100%;
+    }
+}
