@@ -1,1 +1,1 @@
-# lifely.github.io
+# https://pratham-sapkota.github.io/lifely/
